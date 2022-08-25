@@ -17,8 +17,8 @@ const Header = () => {
 
   return (
     <div class='container d-flex flex-row justify-content-between  bg-secondary p-3 rounded-bottom'>
-      <h3>Matias Logotetti</h3>
-      <button onClick={changePage}>Cambiar de pagina</button>
+      <h3 class='text-light'>Matias Logotetti</h3>
+      <button type='button' class='btn btn-secondary border border-color-light' onClick={changePage}>Cambiar de pagina</button>
     </div>
   )
 }

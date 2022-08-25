@@ -11,15 +11,15 @@ const FirstScreen = () => {
     
     return (
         <div class='container h-100 bg-light'>
-        <Header />
-            <div class='container mt-5'>
-            <Table class="table ">
+        <Header/>
+            <div class='container w-75 mt-5 h-75 d-flex align-items-center'>
+            <Table striped bordered hover size="xl">
                 <thead class='bg-secondary'>
                     <tr>
-                        <th scope="col">Nombre</th>
-                        <th scope="col">Edad</th>
-                        <th scope="col">Carrera</th>
-                        <th scope="col">Hobbie</th>
+                        <th scope="col" class='text-light'>Nombre</th>
+                        <th scope="col" class='text-light'>Edad</th>
+                        <th scope="col" class='text-light'>Carrera</th>
+                        <th scope="col" class='text-light'>Hobbie</th>
                     </tr>
                 </thead>
                 <tbody>
